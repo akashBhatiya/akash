@@ -3,49 +3,49 @@ import Link from "next/link";
 const items = [
   {
     id: 1,
-    name: "Figma",
+    name: "React",
     image: "assets/images/skills/skill1.png",
     value: "95",
   },
   {
     id: 2,
-    name: "Framer",
+    name: "Next.js",
     image: "assets/images/skills/skill2.png",
     value: "83",
   },
   {
     id: 3,
-    name: "Photoshop",
-    image: "assets/images/skills/skill3.png",
+    name: "Angular",
+    image: "assets/images/skills/skill5.png",
     value: "93",
   },
   {
     id: 4,
-    name: "Wordpress",
+    name: "Nodejs",
     image: "assets/images/skills/skill4.png",
     value: "84",
   },
   {
     id: 5,
-    name: "Angular",
+    name: "MongoDB",
     image: "assets/images/skills/skill5.png",
     value: "65",
   },
   {
     id: 6,
-    name: "Webflow",
+    name: "PostgreSQL",
     image: "assets/images/skills/skill6.png",
     value: "86",
   },
   {
     id: 7,
-    name: "Python",
+    name: "AWS",
     image: "assets/images/skills/skill7.png",
     value: "62",
   },
   {
     id: 8,
-    name: "Sketch",
+    name: "Git",
     image: "assets/images/skills/skill8.png",
     value: "94",
   },
@@ -62,12 +62,10 @@ const Skill = () => {
                 <div className="section-title mb-40">
                   <span className="sub-title mb-15">My Skills</span>
                   <h2>
-                    Let’s Explore Popular <span>Skills &amp; Experience</span>
+                    Let’s Discover My Key <span>Skills &amp; Expertise</span>
                   </h2>
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus to voluptatem
-                    accusantium doloremque laudantium, totam rem aperiamc eaque
-                    ipsa quae ab illo inventore veritatis
+                    With over 5 years of experience in full-stack development, I specialize in building robust, scalable web applications. From frontend to backend, I deliver tailored solutions using modern technologies like MERN, AWS, and Azure.
                   </p>
                 </div>
                 <Link legacyBehavior href="/about">

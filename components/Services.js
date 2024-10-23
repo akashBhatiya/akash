@@ -4,33 +4,33 @@ const Services = ({ extraClass }) => {
   const services = [
     {
       id: 1,
-      title: "Brand Identity Design",
-      text: "Dignissimos ducimus blanditiis praesen",
+      title: "MERN Stack Solutions",
+      text: "Building responsive, high-performance websites tailored to your business needs.",
     },
     {
       id: 2,
-      title: "Website Design",
-      text: "Dignissimos ducimus blanditiis praesen",
+      title: "Cloud Solutions (AWS & Azure)",
+      text: "Leveraging AWS and Azure for scalable, secure, and cost-efficient cloud infrastructure and services.",
     },
     {
       id: 3,
-      title: "Mobile Application Design",
-      text: "Dignissimos ducimus blanditiis praesen",
+      title: "API Development & Integration",
+      text: "Creating secure APIs and integrating third-party services to streamline your operations.",
     },
     {
       id: 4,
-      title: "Motion Graphics Design",
-      text: "Dignissimos ducimus blanditiis praesen",
+      title: "UI/UX Design & Frontend Development",
+      text: "Designing intuitive, user-friendly interfaces with React for seamless user experiences.",
     },
     {
       id: 5,
-      title: "Website Development",
-      text: "Dignissimos ducimus blanditiis praesen",
+      title: "Backend Architecture & Optimization",
+      text: "Developing optimized, scalable backend systems with Node.js for improved performance.",
     },
     {
       id: 6,
-      title: "SEO & Digital Marketing",
-      text: "Dignissimos ducimus blanditiis praesen",
+      title: "Technical Consulting & Code Audits",
+      text: "Providing expert advice and code audits to enhance your technology and digital strategy.",
     },
   ];
   return (
@@ -44,7 +44,7 @@ const Services = ({ extraClass }) => {
             <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
               <span className="sub-title mb-15">Popular Services</span>
               <h2>
-                My <span>Special Service</span> For your Business Development
+                <span>Advanced Software Solutions</span> for Your Business Development
               </h2>
             </div>
           </div>

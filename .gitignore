@@ -1,1 +1,16 @@
+# Dependencies
 /node_modules
+node_modules/
+
+# Next.js build output
+/.next
+.next/
+/out/
+
+# SWC
+.swc/
+
+# Environment files
+.env
+.env.*
+.*.env

@@ -14,12 +14,12 @@ const Hero = () => {
         <div className="row align-items-center">
           <div className="col-lg-4 col-sm-7">
             <div className="hero-content rmb-55 wow fadeInUp delay-0-2s">
-              <span className="h2">Hello, i’m </span>
+              <span className="h2">Hi, i’m </span>
               <h1>
-                <b>Akash Bhatiya</b> <br/>Software Engineer
+                <b>Akash Bhatiya</b> <br />Software Engineer
               </h1>
               <p>
-              I am a passionate full stack developer with expertise in building modern web applications.
+                Crafting robust and scalable web applications with 5 years of industry experience. Let’s build the future together!
               </p>
               <div className="hero-btns">
                 <Link legacyBehavior href="/contact">

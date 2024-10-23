@@ -16,7 +16,7 @@ const Resume = () => {
                 <div className="section-title mb-60 wow fadeInUp delay-0-2s">
                   <span className="sub-title mb-15">My Resume</span>
                   <h2>
-                    Real <span>Problem Solutions</span> Experience
+                    <span>Software Development</span> Experience
                   </h2>
                 </div>
               </div>
@@ -29,9 +29,9 @@ const Resume = () => {
                       <i className="far fa-arrow-right" />
                     </div>
                     <div className="content">
-                      <span className="years">2021 - Present</span>
-                      <h4>Lead Product Designer</h4>
-                      <span className="company">Google</span>
+                      <span className="years">2024 - Present</span>
+                      <h4>Lead Product Manager</h4>
+                      <span className="company">Sattvam Soft</span>
                     </div>
                   </div>
                 </div>
@@ -41,9 +41,9 @@ const Resume = () => {
                       <i className="far fa-arrow-right" />
                     </div>
                     <div className="content">
-                      <span className="years">2016 - 2018</span>
-                      <h4>Junior UX/UI Designer</h4>
-                      <span className="company">LinkedIn</span>
+                      <span className="years">2022 - 2023</span>
+                      <h4>Backend Developer</h4>
+                      <span className="company">RangeUp</span>
                     </div>
                   </div>
                 </div>
@@ -53,9 +53,9 @@ const Resume = () => {
                       <i className="far fa-arrow-right" />
                     </div>
                     <div className="content">
-                      <span className="years">2018 - 2021</span>
-                      <h4>Senior Product Designer</h4>
-                      <span className="company">Webflow</span>
+                      <span className="years">2023 - 2024</span>
+                      <h4>Senior FullStack Developer</h4>
+                      <span className="company">Globalia Soft LLP</span>
                     </div>
                   </div>
                 </div>
@@ -65,9 +65,9 @@ const Resume = () => {
                       <i className="far fa-arrow-right" />
                     </div>
                     <div className="content">
-                      <span className="years">2014 - 2016</span>
-                      <h4>Graphics Designer</h4>
-                      <span className="company">Apple</span>
+                      <span className="years">2018 - 2020</span>
+                      <h4>Shopify Theme Developer</h4>
+                      <span className="company">RangeUp</span>
                     </div>
                   </div>
                 </div>
