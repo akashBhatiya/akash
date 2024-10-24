@@ -4,49 +4,49 @@ const items = [
   {
     id: 1,
     name: "React",
-    image: "assets/images/skills/skill1.png",
+    image: "assets/images/skills/s1.png",
     value: "95",
   },
   {
     id: 2,
     name: "Next.js",
-    image: "assets/images/skills/skill2.png",
-    value: "83",
+    image: "assets/images/skills/s2.png",
+    value: "93",
   },
   {
     id: 3,
     name: "Angular",
     image: "assets/images/skills/skill5.png",
-    value: "93",
+    value: "82",
   },
   {
     id: 4,
     name: "Nodejs",
-    image: "assets/images/skills/skill4.png",
-    value: "84",
+    image: "assets/images/skills/s4.png",
+    value: "97",
   },
   {
     id: 5,
     name: "MongoDB",
-    image: "assets/images/skills/skill5.png",
-    value: "65",
+    image: "assets/images/skills/s5.svg",
+    value: "96",
   },
   {
     id: 6,
     name: "PostgreSQL",
-    image: "assets/images/skills/skill6.png",
+    image: "assets/images/skills/s6.png",
     value: "86",
   },
   {
     id: 7,
     name: "AWS",
-    image: "assets/images/skills/skill7.png",
+    image: "assets/images/skills/s7.png",
     value: "62",
   },
   {
     id: 8,
     name: "Git",
-    image: "assets/images/skills/skill8.png",
+    image: "assets/images/skills/s8.png",
     value: "94",
   },
 ];
@@ -81,7 +81,7 @@ const Skill = () => {
                   {items.map((item) => (
                     <div className="col-xl-3 col-lg-4 col-md-3 col-sm-4 col-6">
                       <div className="skill-item wow fadeInUp delay-0-2s">
-                        <img src={item.image} alt="Skill" />
+                        <img src={item.image} alt="Skill" width="55px" height="55px" style={{objectFit:'contain'}}/>
                         <h5>{item.name}</h5>
                         <span className="percent">{item.value}%</span>
                       </div>
